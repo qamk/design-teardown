@@ -1,0 +1,103 @@
+* {
+  outline: 1px solid red !important;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  display: inline-block;
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+}
+
+header {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+}
+
+.content-nav {
+  display: grid;
+  grid-template-columns: 40px auto auto;
+  padding: 12px;
+}
+
+.type-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag-items {
+  margin-left: 15px;
+  padding: 6px;
+}
+
+.tag-items > li {
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+}
+
+.type-items > li {
+  margin-left: 20px;
+}
+
+.grid {
+  display: grid;
+}
+
+.two-by-one {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-container {
+  margin: 20px 0 20px 10px;
+}
+
+.newsletter-container {
+  margin: 0 auto;
+  height: 900px;
+  width: 500px;
+}
+
+.newsletter-box {
+  position: relative;
+  top: 20%;
+  height: 70%;
+  border: 1px solid yellow;
+}
+
+.aside-image {
+  position: absolute;
+  top: -125px;
+  left: 125px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.article-image {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 2px solid red;
+  transform: rotate(-20deg);
+}
+
+.card-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.card {
+  width: 330px;
+  height: 90%;
+  margin: 0 30px;
+}
